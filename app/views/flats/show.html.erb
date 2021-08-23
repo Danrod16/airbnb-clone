@@ -1,0 +1,7 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= @flat["imageUrl"] %>);">
+  <div class="container" style="padding: 150px;">
+    <h1><%= @flat["name"] %></strong>!</h1>
+    <p><%= @flat["price"] %> <%= @flat["priceCurrency"] %></p>
+    <%= link_to "Back to flats", flats_path %>
+  </div>
+</div>
